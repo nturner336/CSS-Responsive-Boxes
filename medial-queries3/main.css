@@ -1,0 +1,62 @@
+body {
+  background: peachpuff;
+}
+
+.container {
+  display: flex;
+  min-height: 100wh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header, footer {
+  flex-grow: 1;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 300px;
+}
+
+
+.a {
+  background-color: red;
+  width: 300px;
+}
+
+.b {
+  background-color: rgb(4, 255, 0);
+  width: 300px;
+}
+
+.c {
+  background-color: rgb(17, 0, 255);
+  width: 300px;
+}
+
+.d {
+  background-color: rgb(255, 0, 234);
+  width: 300px;
+}
+
+.e {
+  background-color: rgb(255, 140, 0);
+  width: 300px;
+
+}
+
+.f {
+  background-color: red;
+  width: 300px;
+}
+
+.g {
+  background-color: rgb(117, 68, 7);
+  width: 300px;
+
+}
+
+.h {
+  background-color: rgb(221, 255, 0);
+  width: 300px;
+}

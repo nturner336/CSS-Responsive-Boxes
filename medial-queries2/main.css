@@ -1,0 +1,54 @@
+
+body {
+  background: papayawhip;
+  margin: 0; /* remove default margin */
+}
+
+/* Use viewport height (vh) instead of 'wh' which is not a valid unit */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.a{
+  background-color: #333; /* color for header */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 300px;
+
+}
+
+.b {
+background-color: #333; 
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 300px;
+}
+
+/* .c, .d, and .e fit in one row */
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 300px;
+}
+
+
+.a, .b, .f {
+  flex: 1; /* This allows them to grow and shrink as needed */
+  margin: 10px; /* Consistent margin for alignment */
+  width: 300px;
+}
+
+.a { background-color: red; }
+.b { background-color: rgb(255, 187, 0); }
+.c { background-color: rgb(0, 221, 255); }
+.d { background-color: rgb(153, 0, 255); }
+.e { background-color: rgb(212, 255, 0); }
+.f { background-color: rgb(0, 255, 102); }
+
+footer {
+  margin-bottom: auto; /* pushes the footer to the bottom */
+}

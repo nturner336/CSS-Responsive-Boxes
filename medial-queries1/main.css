@@ -1,0 +1,32 @@
+body {
+  background: blanchedalmond;
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  font-family: sans-serif;
+}
+.container {
+  height: 100vh
+  display: flex;
+  flex-direction: column;
+}
+.a {
+  background-color: red;
+  width: 300px;
+}
+  
+.b {
+  background-color: blue;
+  width: 300px;
+}
+
+.c {
+  background-color: orange;
+  width: 300px;
+}
+
+*/css for screen size more than 600px/ 
+@media screen {
+  
+}
